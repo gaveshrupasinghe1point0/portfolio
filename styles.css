@@ -1,3 +1,10 @@
+Here is the updated, complete CSS file! 
+
+I have added `transform: scale(0.85);` strictly to the `.profile-photo-container img` class (around line 293). This will physically draw your photo backwards (zooming it out) while keeping it perfectly centered. 
+
+Just copy all of this code, replace everything in your `styles.css` file on GitHub, and commit the changes!
+
+```css
 /* ==========================================================================
    CSS Variables
    ========================================================================== */
@@ -319,6 +326,7 @@
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
+    transform: scale(0.85); /* This visually zooms the image out! */
   }
   
   .photo-placeholder-text {
@@ -836,4 +844,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-  
+```
