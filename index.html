@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gavesh Rupasinghe - Portfolio</title>
+  <meta name="description" content="Portfolio website built with HTML, CSS, JS.">
+  
+  <!-- Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-text">Portfolio.</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="nav-socials">
+        <a href="https://github.com/gaveshrupasinghe1point0" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/gav-rupe-471a7a397" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <i class='bx bx-menu'></i>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section hero-section">
+    <div class="hero-content">
+      <p class="greeting">Hi, my name is</p>
+      <h1>Gavesh Rupasinghe.</h1>
+      <h2 style="font-size: 2.5rem; margin-bottom: 20px;">A Passionate <span class="highlight">Computer Science</span> Student</h2>
+      <p class="hero-desc">
+        Driven by logic and design, currently building full-stack applications with an emphasis on seamless user experiences. 
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+       <div class="gradient-sphere"></div>
+       
+       <div class="profile-photo-container">
+         <img src="avatar2.jpeg" alt="Gavesh Rupasinghe">
+       </div>
+
+       <div class="glass-card element-1">
+         <i class='bx bxl-javascript'></i>
+       </div>
+       <div class="glass-card element-2">
+         <i class='bx bxl-python'></i>
+       </div>
+       <div class="glass-card element-3">
+         <i class='bx bx-data'></i>
+       </div>
+       <div class="glass-card element-4">
+         <i class='bx bx-code-curly'></i>
+       </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I’m Gavesh Rupasinghe, a Computer Science student at the University of Plymouth who enjoys building fast, functional, and user-focused digital experiences. From crafting responsive interfaces with HTML, CSS, and JavaScript to working with databases using SQL and Supabase, I like turning ideas into real, working products. I also write code in Python and C, constantly sharpening my problem-solving skills and exploring new technologies.
+          </p>
+          <div class="education-timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>BSc (Hons) Computer Science</h3>
+                <h4>University of Plymouth</h4>
+                <p>Currently expanding my knowledge in software engineering, algorithms, and system design.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Foundation in Computing</h3>
+                <h4>NSBM Green University</h4>
+                <p>Built my core understanding of programming constructs and computer architecture.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My Toolbox</h2>
+        <div class="line"></div>
+      </div>
+      <div class="skills-grid">
+        
+        <div class="skill-card">
+          <i class='bx bxl-html5 skill-icon html-icon'></i>
+          <i class='bx bxl-css3 skill-icon css-icon'></i>
+          <h3>HTML & CSS</h3>
+          <p>Structuring semantic web pages and styling them with modern, responsive CSS design.</p>
+        </div>
+
+        <div class="skill-card">
+          <i class='bx bxl-javascript skill-icon js-icon'></i>
+          <h3>JavaScript</h3>
+          <p>Building interactive web elements, dynamic logic, and communicating with APIs.</p>
+        </div>
+
+        <div class="skill-card">
+          <i class='bx bxl-python skill-icon py-icon'></i>
+          <h3>Python</h3>
+          <p>Writing scripts, backend logic, and diving into data-driven development.</p>
+        </div>
+
+        <div class="skill-card">
+          <i class='bx bxs-data skill-icon supa-icon'></i>
+          <h3>Supabase & SQL</h3>
+          <p>Designing database schemas, managing authentication, and interacting with PostgreSQL.</p>
+        </div>
+
+        <div class="skill-card">
+          <i class='bx bx-code-curly skill-icon' style="color: #659AD2;"></i>
+          <h3>C Programming</h3>
+          <p>Writing highly efficient code, sharpening problem-solving skills, and mastering algorithmic logic.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="line"></div>
+      </div>
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="image-placeholder bg-gradient-1"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>HTML/CSS</span>
+              <span>JS</span>
+              <span>Supabase</span>
+            </div>
+            <h3>Fullstack Task Manager</h3>
+            <p>A responsive task management application using vanilla JavaScript for the frontend and Supabase for persistent data storage and real-time updates.</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-outline"><i class='bx bxl-github'></i> Code</a>
+              <a href="#" class="btn btn-outline"><i class='bx bx-link-external'></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+             <div class="image-placeholder bg-gradient-2"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Automation</span>
+            </div>
+            <h3>Data Analysis Script</h3>
+            <p>A Python-based utility script automating data parsing and generating insight reports, showcasing foundational algorithmic concepts.</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-outline"><i class='bx bxl-github'></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's talk about everything!</h3>
+          <p>Whether you have a question, a project idea, or just want to say hi, feel free to drop a message.</p>
+          <div class="contact-details">
+            <div class="detail-item">
+              <i class='bx bx-envelope'></i>
+              <span><a href="mailto:gaveshrupasinghe12@gmail.com" style="color: inherit; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-primary)'" onmouseout="this.style.color='inherit'">gaveshrupasinghe12@gmail.com</a></span>
+            </div>
+            <div class="detail-item">
+              <i class='bx bx-phone' ></i>
+              <span><a href="tel:+94706957211" style="color: inherit; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='var(--accent-primary)'" onmouseout="this.style.color='inherit'">+94706957211</a></span>
+            </div>
+            <div class="detail-item">
+              <i class='bx bx-current-location' ></i>
+              <span>Available Globally</span>
+            </div>
+          </div>
+          
+          <div class="social-links" style="justify-content: flex-start; margin-top: 30px;">
+            <a href="https://github.com/gaveshrupasinghe1point0" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/gav-rupe-471a7a397" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required placeholder="Your message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">
+            <span>Send Message</span>
+            <i class='bx bx-send'></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="https://github.com/gaveshrupasinghe1point0" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/gav-rupe-471a7a397" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <p>&copy; <span id="year"></span> Created by Gavesh Rupasinghe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
