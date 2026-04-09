@@ -326,7 +326,7 @@ Just copy all of this code, replace everything in your `styles.css` file on GitH
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-    transform: scale(0.70); /* This visually zooms the image out! */
+    transform: scale(0.50); /* This visually zooms the image out! */
   }
   
   .photo-placeholder-text {
